@@ -11,7 +11,7 @@ void moveCamera(int pos)
 		j->moveCameraBy(((0 * scale) - j->getCameraX())*camspeed, 0);
 	}
 	else if (pos == 1)
-	{
+	{ 
 		j->moveCameraBy(((520 * scale) - j->getCameraX())*camspeed, 0);
 	}
 	else if (pos == 2) {
